@@ -1,6 +1,6 @@
 Classroom Info
 <%= render partial: 'classroom', locals: {classroom: @classroom} %>
-<% binding.pry %>
+<!-- <% binding.pry %> -->
 
 <% @classroom.students do |student| %>
     <%= render partial: 'students/student', locals: {student: student}%>
