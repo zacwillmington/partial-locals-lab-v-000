@@ -3,7 +3,6 @@ Classroom Info
 <!-- <% binding.pry %> -->
 
 <% @classroom.students.each do |student| %>
-<% binding.pry %>
     <%= render partial: 'students/student', locals: {student: student} %>
     <% end %>
 
