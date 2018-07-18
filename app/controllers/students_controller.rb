@@ -17,11 +17,11 @@ class StudentsController < ApplicationController
   end
 
   def show
+      binding.pry
     @student = Student.find(params[:id])
   end
 
   def index
-      binding.pry
     @students = Student.all
   end
 
